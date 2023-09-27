@@ -35,6 +35,9 @@ hr{
     border-style: dotted none none;
     height: 50px;
 }
+.navbar{
+    background-color: #EDF1D6;
+}
 .profile-img{
     height:200px;
     width: 200px;

@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EDF1D6;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family:'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #40513B;
+    line-height: 2em;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #40513B;
+    font-weight: normal;
+}
+h3{
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:#183A1D;
+}
+p{
+    padding:100px;
+}
+a{
+    color:#183A1D;
+    font-family: 'Open Sans', sans-serif;
+    padding:10px;
+    text-decoration: none;
+    margin: 20px;
+}
+a:hover{
+    color: #EDF1D6;
+}
+hr{
+    border-style: dotted none none;
+    height: 50px;
+}
+.cap{
+    width:10%;
+    height: 10%;
+}
+.light-bulb{
+    opacity: 0.1;
+    position: absolute;
+    left:300px;
+    top:5rem;
+}
+.middle-container{
+    padding:100px;
+    background-color: white;
+}
+.school, .pu, .degree{
+    padding: 50px;
+}
+.scs, .sjpuc, .nhce{
+    border-radius: 15px 50px 30px;
+}
