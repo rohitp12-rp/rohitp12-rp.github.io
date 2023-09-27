@@ -40,6 +40,9 @@ hr{
     border-style: dotted none none;
     height: 50px;
 }
+.navbar{
+    z-index: 1;
+}
 .cap{
     width:10%;
     height: 10%;
