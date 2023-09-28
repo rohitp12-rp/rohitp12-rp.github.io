@@ -1,7 +1,7 @@
 
 // gsap animation 
 
-let books = gsap.utils.toArray('.books');
+let books = gsap.utils.toArray('.cover, .author, h3');
 books.forEach(book => {
   gsap.to(book, { 
     x: 800,
@@ -26,15 +26,15 @@ books.forEach(book => {
 //     x:800
 // })
 // Smooth scroll 
-const lenis = new Lenis()
+// const lenis = new Lenis()
 
-lenis.on('scroll', (e) => {
-  console.log(e)
-})
+// lenis.on('scroll', (e) => {
+//   console.log(e)
+// })
 
-function raf(time) {
-  lenis.raf(time)
-  requestAnimationFrame(raf)
-}
+// function raf(time) {
+//   lenis.raf(time)
+//   requestAnimationFrame(raf)
+// }
 
-requestAnimationFrame(raf)
+// requestAnimationFrame(raf)
